@@ -1,11 +1,10 @@
-import {Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger} from "@/components/ui/sheet";
+import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet";
 import {Button} from "@/components/ui/button";
 import {Menu} from "lucide-react";
 import Link from "next/link";
 import {Separator} from "@/components/ui/separator";
 import {navLinks} from "@/constants";
 import {cn} from "@/lib/utils";
-import {usePathname} from "next/navigation";
 
 const Mobile = () => {
   return (

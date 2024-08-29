@@ -5,19 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87feb318-b825-48e4-876f-aeded0914c5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(root)/_compontents/global-search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/_compontents/mobile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/providers/theme-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/mode-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/blogs/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/blogs/archive/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/blogs/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/cards/author.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/cards/blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/bg-arrow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/about/00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/about/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/about/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/author/chris-impey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/author/emma-hazel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/author/thomas-macaulay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blogs/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blogs/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blogs/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blogs/04.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/_compontents/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_compontents/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/_compontents/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_compontents/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/_compontents/mobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_compontents/mobile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +78,14 @@
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Acer\\Desktop\\cms-blog\\node_modules\\typescript\\lib&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Desktop\cms-blog\app\(root)\blogs" />
+      <recent name="C:\Users\Acer\Desktop\cms-blog\public\about" />
+      <recent name="C:\Users\Acer\Desktop\cms-blog\public\author" />
+      <recent name="C:\Users\Acer\Desktop\cms-blog\public\blogs" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +110,9 @@
       <workItem from="1724693427112" duration="1325000" />
       <workItem from="1724734446929" duration="15872000" />
       <workItem from="1724761792546" duration="659000" />
-      <workItem from="1724819286646" duration="7609000" />
+      <workItem from="1724819286646" duration="12841000" />
+      <workItem from="1724905203649" duration="15127000" />
+      <workItem from="1724953964982" duration="2046000" />
     </task>
     <servers />
   </component>
