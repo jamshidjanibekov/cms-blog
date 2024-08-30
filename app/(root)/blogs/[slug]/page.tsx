@@ -1,4 +1,4 @@
-import {ArrowUpRight, CalendarDays, Clock, Facebook, Link2, Linkedin, Minus, Send, Twitter, X} from "lucide-react";
+import {ArrowUpRight, CalendarDays, Clock, Facebook, Link2, Linkedin, Minus, Send, Twitter} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
