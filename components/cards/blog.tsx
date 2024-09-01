@@ -72,8 +72,11 @@ const BlogCard = (blog:Props) => {
           </div>
           <Dot/>
           <div className='flex items-center gap-2'>
-            <Link href={`/tags/${blog.tag.slug}`}>
+            <Link href={`/tags/${blog.tag.slug}`} className='flex gap-2'>
               <Badge variant='secondary'>{blog.tag.name}</Badge>
+            </Link>
+            <Link href={`/category/${blog.category.slug}`} className='flex gap-2'>
+              <Badge variant='secondary'>{blog.category.name}</Badge>
             </Link>
           </div>
         </div>

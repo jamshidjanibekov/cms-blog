@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87feb318-b825-48e4-876f-aeded0914c5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(root)/tags/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tag.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/category/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/category.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/blogs/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/blogs/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/tags/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/tags/[slug]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/cards/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/cards/blog.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/blog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/blog.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/tag.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/tag.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +62,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Desktop\cms-blog\app\(root)\category" />
       <recent name="C:\Users\Acer\Desktop\cms-blog\app\(root)\tags\[slug]" />
       <recent name="C:\Users\Acer\Desktop\cms-blog\app\(root)\blogs" />
       <recent name="C:\Users\Acer\Desktop\cms-blog\public\about" />
       <recent name="C:\Users\Acer\Desktop\cms-blog\public\author" />
-      <recent name="C:\Users\Acer\Desktop\cms-blog\public\blogs" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -99,7 +100,8 @@
       <workItem from="1725042480721" duration="1924000" />
       <workItem from="1725108234274" duration="641000" />
       <workItem from="1725108968960" duration="1318000" />
-      <workItem from="1725123241252" duration="4172000" />
+      <workItem from="1725123241252" duration="4771000" />
+      <workItem from="1725206617392" duration="4424000" />
     </task>
     <servers />
   </component>

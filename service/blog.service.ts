@@ -59,6 +59,10 @@ export const getDetailedBlog = async (slug:string) => {
         name
         slug
       }
+      category {
+        name
+        slug
+      }
       title
     }
   }

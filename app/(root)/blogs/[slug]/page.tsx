@@ -3,11 +3,9 @@ import {Button} from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import parse from 'html-react-parser';
-import {content} from "@/constants";
 import {getDetailedBlog} from "@/service/blog.service";
 import {getReadingTime} from "@/lib/utils";
 import {format} from "date-fns";
-import author from "@/components/cards/author";
 
 const SlugPage = async ({params}:{params:{slug:string}}) => {
   const blog = await getDetailedBlog(params.slug)
