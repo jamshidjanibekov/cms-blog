@@ -2,7 +2,7 @@
 import {IBlog} from "@/types";
 import Image from "next/image";
 import Link from "next/link";
-import {CalendarDays, Clock, Dot, Minus} from "lucide-react";
+import {CalendarDays, Clock, Dot, Layers2, Minus, Tag} from "lucide-react";
 import {Badge} from "@/components/ui/badge";
 import {cn, getReadingTime} from "@/lib/utils";
 import {format} from 'date-fns'
@@ -72,17 +72,23 @@ const BlogCard = (blog:Props) => {
           </div>
           <Dot/>
           <div className='flex items-center gap-2'>
-            <Link href={`/tags/${blog.tag.slug}`} className='flex gap-2'>
-              <Badge variant='secondary'>{blog.tag.name}</Badge>
+            <Link href={`/tags/${blog.tag.slug}`} >
+              <Badge variant='secondary' >
+                <Tag className='h-3 w-3 mr-2'/>
+                {blog.tag.name}
+              </Badge>
             </Link>
-            <Link href={`/category/${blog.category.slug}`} className='flex gap-2'>
-              <Badge variant='secondary'>{blog.category.name}</Badge>
+            <Link href={`/categories/${blog.category.slug}`}>
+              <Badge variant='outline'>
+                <Layers2 className='h-3 w-3 mr-2'/>
+                {blog.category.name}
+              </Badge>
             </Link>
+          </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+      );
+      };
 
-export default BlogCard;
+      export default BlogCard;
