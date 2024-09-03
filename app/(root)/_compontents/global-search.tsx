@@ -25,8 +25,8 @@ const GlobalSearch = () => {
             <div className='flex items-center gap-2'>
               <p className='font-creteRound text-2xl'>See posts by categories</p>
               <Minus />
-              <Link href={'/categories'} className='text-blue-500 underline hover:opacity-90'>
-                <DrawerClose>
+              <Link href={'/categories'} >
+                <DrawerClose className='text-blue-500 underline hover:opacity-90'>
                   See all
                 </DrawerClose>
               </Link>
@@ -42,8 +42,8 @@ const GlobalSearch = () => {
             <div className='flex items-center gap-2'>
               <p className='font-creteRound text-2xl'>See posts by tags</p>
               <Minus />
-              <Link href={'/tags'} className='text-blue-500 underline hover:opacity-90'>
-                <DrawerClose>
+              <Link href={'/tags'} >
+                <DrawerClose className='text-blue-500 underline hover:opacity-90'>
                   See all
                 </DrawerClose>
               </Link>
