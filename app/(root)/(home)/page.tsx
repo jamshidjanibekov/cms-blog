@@ -5,8 +5,6 @@ import {getBlogs} from "@/service/blog.service";
 const HomePage = async () => {
   const blogs = await getBlogs();
 
-  console.log(blogs)
-  console.log(process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT)
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='relative min-h-[60vh] flex items-center justify-center'>

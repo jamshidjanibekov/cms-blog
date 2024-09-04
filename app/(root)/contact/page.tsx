@@ -1,8 +1,6 @@
-import {Dot, Home, Mail, Phone, Send} from "lucide-react";
+import {Dot, Home, Mail, Phone,} from "lucide-react";
 import Link from "next/link";
-import {Textarea} from "@/components/ui/textarea";
-import {Input} from "@/components/ui/input";
-import {Button} from "@/components/ui/button";
+import Contact from "@/components/forms/contact";
 
 const ContactPage = () => {
   return (
@@ -11,7 +9,6 @@ const ContactPage = () => {
         <h2 className='text-center text-4xl font-creteRound mt-2'>
           <span>Contact</span>
         </h2>
-
         <div className='flex gap-1 items-center mt-4'>
           <Home className='w-4 h-4'/>
           <Link
@@ -42,23 +39,7 @@ const ContactPage = () => {
             <p className='text-sm'>+99893 110 00 40</p>
           </div>
         </div>
-        <div className='flex flex-col gap-2'>
-          <h2 className='text-4xl font-creteRound'>Contact form</h2>
-          <Textarea
-            className='resize-none h-32'
-            placeholder='Ask question or just say Hi'
-          />
-          <Input
-            placeholder='Email address'
-          />
-          <Input
-            placeholder='Your name here'
-          />
-          <Button className='w-fit' size='lg'>
-            <span>Send</span>
-            <Send className='h-4 w-4 ml-2'/>
-          </Button>
-        </div>
+        <Contact/>
       </div>
     </div>
   );

@@ -3,8 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import {authors} from "@/constants";
 import AuthorCard from "@/components/cards/author";
+import {getAuthors} from "@/service/author.service";
 
-const AboutPage = () => {
+const AboutPage = async () => {
+
+  const authors = await getAuthors();
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='relative min-h-[40vh] flex items-center justify-center flex-col'>
