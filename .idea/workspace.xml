@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87feb318-b825-48e4-876f-aeded0914c5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(root)/author/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/forms/contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/label.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/validation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/blogs/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/blogs/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/categories/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/categories/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/categories/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/categories/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cards/author.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/cards/author.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/_compontents/global-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_compontents/global-search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/author.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/author.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/blog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/blog.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +103,9 @@
       <workItem from="1725375824906" duration="4571000" />
       <workItem from="1725423636127" duration="7669000" />
       <workItem from="1725440267928" duration="1689000" />
-      <workItem from="1725472500050" duration="1126000" />
+      <workItem from="1725472500050" duration="2444000" />
+      <workItem from="1725525001359" duration="3313000" />
+      <workItem from="1725553075717" duration="4376000" />
     </task>
     <servers />
   </component>
