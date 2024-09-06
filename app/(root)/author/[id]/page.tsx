@@ -5,7 +5,6 @@ import BlogCard from "@/components/cards/blog";
 const Page =async ({params}:{params:{id:string}}) => {
   const author = await getDetailedAuthors(params.id)
 
-  console.log(author)
   return (
     <div className='max-w-6xl mx-auto mt-36'>
       <div className='flex mt-6 gap-6 items-center max-md:flex-col '>

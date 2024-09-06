@@ -13,6 +13,8 @@ import {ChangeEvent, useState} from "react";
 import {IBlog} from "@/types";
 import {getSearchBlogs} from "@/service/blog.service";
 import {debounce} from 'lodash'
+import SearchCard from "@/components/cards/search";
+import {Separator} from "@/components/ui/separator";
 
 const GlobalSearch = () => {
   const [isLoading, setIsLoading] = useState(false)
@@ -32,7 +34,7 @@ const GlobalSearch = () => {
     }
   }
 
-  const debounceSearch = debounce(handleSearch, 1000)
+  const debounceSearch = debounce(handleSearch, 500)
 
   return(
     <Drawer>
@@ -46,7 +48,13 @@ const GlobalSearch = () => {
         <div  className='container max-w-6xl mx-auto py-12'>
           <Input className='bg-secondary ' placeholder='Type to search blogs...' onChange={debounceSearch} disabled={isLoading}/>
           {isLoading && <Loader2 className='animate-spin mt-4 mx-auto' />}
-          {blogs.length ? <div className='text-2xl font-creteRound'>{blogs.length} Results found</div> : null}
+          {blogs.length ? <div className='text-2xl font-creteRound mt-6'>{blogs.length} Results found</div> : null}
+          <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 mt-2'>
+            {blogs && blogs.map((blog) => <SearchCard key={blog.slug} {...blog}/>)}
+          </div>
+
+          {blogs.length ? <Separator className='my-4' /> : null}
+
           <div className='flex flex-col space-y-2 mt-2'>
             <div className='flex items-center gap-2'>
               <p className='font-creteRound text-2xl'>See posts by categories</p>

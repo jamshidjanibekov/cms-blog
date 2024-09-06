@@ -76,7 +76,7 @@ export const getDetailedBlog = async (slug:string) => {
 export const getSearchBlogs = async (title:string) => {
   const query = gql`
     query MyQuery($title: String!) {
-      blog(where: {title_contains: $title}) {
+      blogs(where: {title_contains: $title}) {
         title
         image{
           url
