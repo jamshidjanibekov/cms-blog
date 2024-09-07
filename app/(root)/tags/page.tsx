@@ -3,11 +3,14 @@ import {Dot, Home} from "lucide-react";
 import Link from "next/link";
 import CategoriesTags from "@/components/cards/categories-tags";
 import {getTags} from "@/service/tag.service";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "All tags",
+}
 
 const Page = async () => {
   const tags = await getTags();
-
-
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='relative min-h-[30vh] flex items-center justify-end flex-col'>

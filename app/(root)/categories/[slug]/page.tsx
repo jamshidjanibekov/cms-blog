@@ -3,10 +3,15 @@ import Link from "next/link";
 import BlogCard from "@/components/cards/blog";
 import {getBlogsByCategory} from "@/service/category.service";
 
+export const generateMetadata = async ({params}:{params:{slug:string}}) => {
+  const blog = await getBlogsByCategory(params.slug)
+  return {
+    title: blog.name,
+  }
+}
+
 const Page = async ({params}:{params:{slug:string}}) => {
-
   const category = await getBlogsByCategory(params.slug)
-
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='relative min-h-[30vh] flex items-center justify-end flex-col'>

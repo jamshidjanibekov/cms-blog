@@ -1,6 +1,11 @@
 import {Dot, Home, Mail, Phone,} from "lucide-react";
 import Link from "next/link";
 import Contact from "@/components/forms/contact";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+}
 
 const ContactPage = () => {
   return (

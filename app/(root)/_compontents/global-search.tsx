@@ -67,7 +67,11 @@ const GlobalSearch = () => {
             </div>
             <div className='flex flex-wrap gap-2'>
               {popularCategories.map(item => (
-                <Badge variant={'secondary'} key={item.slug}>{item.name}</Badge>
+                <Link key={item.slug} href={`/categories/${item.slug}`}>
+                  <DrawerClose>
+                    <Badge variant={'secondary'} >{item.name}</Badge>
+                  </DrawerClose>
+                </Link>
               ))}
             </div>
           </div>
@@ -84,7 +88,11 @@ const GlobalSearch = () => {
             </div>
             <div className='flex flex-wrap gap-2'>
               {popularTags.map(item => (
-                <Badge variant={'secondary'} key={item.slug}>{item.name}</Badge>
+                <Link key={item.slug} href={`/tags/${item.slug}`}>
+                  <DrawerClose>
+                    <Badge variant={'secondary'} >{item.name}</Badge>
+                  </DrawerClose>
+                </Link>
               ))}
             </div>
           </div>

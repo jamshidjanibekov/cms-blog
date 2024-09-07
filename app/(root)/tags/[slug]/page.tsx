@@ -4,10 +4,16 @@ import {Dot, Home} from "lucide-react";
 import Link from "next/link";
 import BlogCard from "@/components/cards/blog";
 
+export const generateMetadata = async ({params}:{params:{slug:string}}) => {
+  const blog = await getBlogsByTag(params.slug)
+  return {
+    title: blog.name,
+  }
+}
+
+
 const Page = async ({params}:{params:{slug:string}}) => {
-
   const tag = await getBlogsByTag(params.slug)
-
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='relative min-h-[30vh] flex items-center justify-end flex-col'>

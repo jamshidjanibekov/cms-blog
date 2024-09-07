@@ -1,12 +1,15 @@
 import {Dot, Home} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import {authors} from "@/constants";
 import AuthorCard from "@/components/cards/author";
 import {getAuthors} from "@/service/author.service";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "CMS Blog",
+}
 
 const AboutPage = async () => {
-
   const authors = await getAuthors();
   return (
     <div className='max-w-6xl mx-auto'>

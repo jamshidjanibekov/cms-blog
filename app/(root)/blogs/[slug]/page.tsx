@@ -7,6 +7,17 @@ import {getDetailedBlog} from "@/service/blog.service";
 import {getReadingTime} from "@/lib/utils";
 import {format} from "date-fns";
 
+export const generateMetadata = async ({params}:{params:{slug:string}}) => {
+  const blog = await getDetailedBlog(params.slug)
+  return {
+    title: blog.title,
+    description: blog.description,
+    openGraph:{
+      image: blog.image.url,
+    }
+  }
+}
+
 const SlugPage = async ({params}:{params:{slug:string}}) => {
   const blog = await getDetailedBlog(params.slug)
   return (

@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87feb318-b825-48e4-876f-aeded0914c5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/_compontents/global-search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_compontents/global-search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/blogs/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/blogs/[slug]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/blogs/archive/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/blogs/archive/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/blogs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/blogs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/categories/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/categories/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/categories/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/categories/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/tags/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/tags/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/tags/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/tags/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/blog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/blog.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/category.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/category.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/tag.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/service/tag.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Acer\\Desktop\\cms-blog\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Acer/Desktop/cms-blog/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "C:\\Users\\Acer\\Desktop\\cms-blog\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Desktop\cms-blog\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\Desktop\cms-blog\app\(root)\categories" />
       <recent name="C:\Users\Acer\Desktop\cms-blog\app\(root)\category" />
@@ -108,7 +124,8 @@
       <workItem from="1725605127276" duration="4634000" />
       <workItem from="1725644904847" duration="3219000" />
       <workItem from="1725648708048" duration="13000" />
-      <workItem from="1725684849693" duration="5285000" />
+      <workItem from="1725684849693" duration="5585000" />
+      <workItem from="1725699287002" duration="3166000" />
     </task>
     <servers />
   </component>

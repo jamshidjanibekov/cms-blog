@@ -2,10 +2,14 @@ import {Archive, Dot, Home} from "lucide-react";
 import Link from "next/link";
 import {getArchiveBlogs} from "@/service/blog.service";
 import {format} from "date-fns";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "Archive",
+}
 
 const ArchivePage = async () => {
   const blogs = await getArchiveBlogs();
-
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='relative min-h-[40vh] flex items-center justify-end flex-col'>

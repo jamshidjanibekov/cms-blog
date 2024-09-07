@@ -2,12 +2,14 @@ import {Dot, Home} from "lucide-react";
 import Link from "next/link";
 import {getCategories} from "@/service/category.service";
 import CategoriesTags from "@/components/cards/categories-tags";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "CMS",
+}
 
 const Page = async () => {
-
   const categories = await getCategories();
-
-
   return (
     <div className='max-w-6xl mx-auto'>
       <div className='relative min-h-[30vh] flex items-center justify-end flex-col'>
