@@ -23,6 +23,10 @@ export const getBlogs = async () => {
           name
           slug
         }
+        category{
+          name
+          slug
+        }
         image {
           url
         }
@@ -51,8 +55,8 @@ export const getDetailedBlog = cache(async (slug:string)  => {
         bio
         id
       }
-        content {
-          html
+      content {
+        html
       }
       createdAt
       image {

@@ -1,4 +1,3 @@
-import React from 'react';
 import {getBlogsByTag} from "@/service/tag.service";
 import {Dot, Home} from "lucide-react";
 import Link from "next/link";
@@ -10,8 +9,6 @@ export const generateMetadata = async ({params}:{params:{slug:string}}) => {
     title: blog.name,
   }
 }
-
-
 const Page = async ({params}:{params:{slug:string}}) => {
   const tag = await getBlogsByTag(params.slug)
   return (

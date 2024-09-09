@@ -10,7 +10,6 @@ export interface IArchivedBlogs{
 }
 
 export interface IBlog{
-  reduce(arg0: (acc: any, blog: any) => void, arg1: {}): unknown;
   title:string
   description:string
   author:IAuthor

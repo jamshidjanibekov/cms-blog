@@ -21,6 +21,6 @@ function ModeToggle() {
           <Moon/>
         </Button>)
     )
-};
+}
 
 export default ModeToggle;

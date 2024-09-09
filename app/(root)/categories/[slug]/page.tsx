@@ -9,7 +9,6 @@ export const generateMetadata = async ({params}:{params:{slug:string}}) => {
     title: blog.name,
   }
 }
-
 const Page = async ({params}:{params:{slug:string}}) => {
   const category = await getBlogsByCategory(params.slug)
   return (
@@ -21,7 +20,7 @@ const Page = async ({params}:{params:{slug:string}}) => {
         <div className='flex gap-1 items-center mt-4'>
           <Home className='w-4 h-4'/>
           <Link
-            href='/public'
+            href='/'
             className='opacity-90 hover:underline hover:opacity-100'
           >
             Home

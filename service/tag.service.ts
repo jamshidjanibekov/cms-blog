@@ -2,7 +2,6 @@ import {gql, request} from "graphql-request";
 import {IBlog, ICategoryAndTags} from "@/types";
 import {cache} from 'react'
 const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT!
-
 export const getTags = async () => {
   const query = gql`
   query MyQuery {
